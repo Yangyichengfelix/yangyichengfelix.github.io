@@ -77,7 +77,12 @@ jobs:
         run: |
             touch dist/Capybara/wwwroot/.nojekyll
             cp dist/Capybara/wwwroot/index.html dist/Capybara/wwwroot/404.html
-        
+      # Rewrite base href        
+      - name: Rewrite base href
+        uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
+        with:
+          html_path: ${{ env.PUBLISH_DIR }}/index.html
+          base_href: /        
       # Commit Blazor Web App to GitHub Pages
       - name: Commit wwwroot to GitHub Pages
         if: ${{ github.actor != 'dependabot[bot]' && github.event_name != 'pull_request' }}
