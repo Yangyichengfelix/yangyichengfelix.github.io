@@ -75,7 +75,7 @@ jobs:
       # Commit Blazor Web App to GitHub Pages
       - name: Commit wwwroot to GitHub Pages
         if: ${{ github.actor != 'dependabot[bot]' && github.event_name != 'pull_request' }}
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           BRANCH: gh-pages
           FOLDER: dist/Capybara/wwwroot
