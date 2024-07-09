@@ -70,9 +70,7 @@ jobs:
 
       # Publishes Blazor project to the release-folder
       - name: Publish Blazor Project
-        run: |
-            cp wwwroot/index.html wwwroot/404.html
-            dotnet publish ./Capybara/Capybara.csproj -c:Release -p:GHPages=true --no-restore -o dist/Capybara --nologo
+        run: dotnet publish ./Capybara.sln -c:Release -p:GHPages=true -o dist/Capybara --nologo
 
       # Commit Blazor Web App to GitHub Pages
       - name: Commit wwwroot to GitHub Pages
