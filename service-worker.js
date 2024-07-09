@@ -65,4 +65,4 @@ self.addEventListener('notificationclick', event => {
     event.notification.close();
     event.waitUntil(clients.openWindow(event.notification.data.url));
 });
-/* Manifest version: 8Ge+0aMt */
+/* Manifest version: TN3dpd1L */
