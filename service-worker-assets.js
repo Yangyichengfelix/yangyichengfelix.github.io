@@ -142,7 +142,7 @@
     },
     {
       "hash": "sha256-+E96dgYQl8OrHQb4yNZ7QwNr3SZzLSP8lwKRzwSiMsw=",
-      "url": "_framework\/dotnet.runtime.8.0.6.ft3vm0pt8p.js"
+      "url": "_framework\/dotnet.runtime.8.0.6.usxxzh3qee.js"
     },
     {
       "hash": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -157,7 +157,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-nvPLjQLn9tau707bCXmCjlJYCiylXkHcrmu2ez\/DJ8c=",
+      "hash": "sha256-8SGAi0XpmCEobObIv4\/QyN4pU4OSXKcE45y5TLl0RN8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -165,7 +165,7 @@
       "url": "_framework\/dotnet.native.8.0.6.wcvz8r9ls6.js"
     },
     {
-      "hash": "sha256-Iccbs4PRcRe\/p5+4SuIo6HDw6gyM8FWlf\/IXA9hBXhI=",
+      "hash": "sha256-sVQUJOCIxAt4xeveishdDa\/ZzpBWfDz93kDzuRhoChI=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
@@ -193,7 +193,7 @@
       "url": "_framework\/BootstrapBlazor.wasm"
     },
     {
-      "hash": "sha256-mlAKRtR7I9c7NUr6leZD4oizIp\/sG9j7wvlwcKeivKM=",
+      "hash": "sha256-5sbqvvHihmjz0A6hLZK5oXIZWwb878X5bfH4dJWIwmo=",
       "url": "_framework\/Capybara.wasm"
     },
     {
@@ -409,7 +409,7 @@
       "url": "_framework\/System.Linq.Queryable.wasm"
     },
     {
-      "hash": "sha256-dmX2gjlXXXoWTAW5C2c1teDfiUxwesTFCj9YHBGLuZY=",
+      "hash": "sha256-r2cD2IK4pDijulcp81nWqLuMpSzf6NftP05E\/SJnruI=",
       "url": "_framework\/System.Linq.wasm"
     },
     {
@@ -421,7 +421,7 @@
       "url": "_framework\/System.Net.Http.Json.wasm"
     },
     {
-      "hash": "sha256-DwK1mIqiW\/vKrcfuPA56jHD\/2oFweX5g46cJmKpeRow=",
+      "hash": "sha256-TBUaFLwUttjqcXWWsvFd1JgiG9fdch07fa8eNi1Sy1g=",
       "url": "_framework\/System.Net.Http.wasm"
     },
     {
@@ -521,7 +521,7 @@
       "url": "_framework\/Toolbelt.Blazor.PWA.Updater.wasm"
     },
     {
-      "hash": "sha256-yIsroe06YUrsBAlQpN9enn0lU\/nbtpSBwXVKHV6BCfQ=",
+      "hash": "sha256-PIC9Xa4gAulIfdMjlU4+PWf2RnVMG\/bE1jBmpstHfBQ=",
       "url": "_framework\/Toolbelt.Blazor.SpeechSynthesis.wasm"
     },
     {
@@ -957,5 +957,5 @@
       "url": "_content\/Toolbelt.Blazor.PWA.Updater\/Toolbelt.Blazor.PWA.Updater.bundle.scp.css"
     }
   ],
-  "version": "gAjPzc3m"
+  "version": "EPoXuuSF"
 };
