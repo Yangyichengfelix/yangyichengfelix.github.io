@@ -4,33 +4,34 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>       
-	    <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
-<PublishTrimmed>true</PublishTrimmed>
+	    	<ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+		<PublishTrimmed>true</PublishTrimmed>
 		<RunAOTCompilation>true</RunAOTCompilation>
-		<WasmStripILAfterAOT>true</WasmStripILAfterAOT>
+		<WasmStripILAfterAOT>false</WasmStripILAfterAOT>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Blazor-ApexCharts" Version="3.3.0" />
         <PackageReference Include="BlazorTransitionableRoute" Version="4.0.0" />
-		<PackageReference Include="BootstrapBlazor" Version="8.3.3" />
-		<PackageReference Include="BootstrapBlazor.Markdown" Version="8.0.0" />
+	<PackageReference Include="BootstrapBlazor" Version="8.3.3" />
+	<PackageReference Include="BootstrapBlazor.Markdown" Version="8.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.4" />
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.4" PrivateAssets="all" />
-	    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />    
-		<PackageReference Include="MudBlazor" Version="6.19.1" />
+	<PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />    
+        <PackageReference Include="PublishSPAforGitHubPages.Build" Version="2.2.0" />
+	<PackageReference Include="MudBlazor" Version="6.19.1" />
         <PackageReference Include="BlazorPro.Spinkit" Version="1.2.0" />
         <PackageReference Include="Tewr.Blazor.FileReader" Version="3.3.2.23201" />
         <PackageReference Include="ToolBelt.Blazor.SpeechSynthesis" Version="10.3.1" />
         <PackageReference Include="ToolBelt.Web.CssClassInlineBuilder" Version="3.1.0.1" />
-	    <PackageReference Include="Toolbelt.Blazor.PWA.Updater" Version="2.1.0.1" />
+	<PackageReference Include="Toolbelt.Blazor.PWA.Updater" Version="2.1.0.1" />
     </ItemGroup>
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\public\" />
-  <Folder Include="wwwroot\_framework\" />
-  <Folder Include="wwwroot\_content\" />
+    	<Folder Include="wwwroot\public\" />
+  	<Folder Include="wwwroot\_framework\" />
+  	<Folder Include="wwwroot\_content\" />
   </ItemGroup>
 </Project>
