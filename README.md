@@ -1,10 +1,10 @@
 # Portfolio Blazor WebAssembly: Déploiement Automatisé via GitHub Pages
 ## Description du Projet:
-J'ai développé un portfolio utilisant Blazor WebAssembly, déployé automatiquement sur GitHub Pages. Le processus de déploiement est déclenché par les actions GitHub sur les événements PUSH, PULL Request et CRON sur la branche master.
+J'ai créé un portfolio utilisant Blazor WebAssembly, déployé automatiquement sur GitHub Pages. Le processus de déploiement est déclenché par les actions GitHub sur les événements PUSH, PULL Request et CRON sur la branche master.
 
 ## Détails Techniques:
   - Fichiers de Workflow: Situés dans la branche master sous .github/workflows/.
-  - Fichier Original: workflow yml.
+  - Fichier Original: [ilovedotnet/.github/workflows/deployment.yml](https://github.com/ILoveDotNet/ilovedotnet/blob/main/.github/workflows/deployment.yml)
   - Modifications: Simplification pour inclure uniquement les étapes de build et déploiement de WebAssembly.
 ## Ajouts pour GitHub Pages:
 ### Gestion des Erreurs 404:
